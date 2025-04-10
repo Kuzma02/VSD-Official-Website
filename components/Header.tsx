@@ -18,7 +18,7 @@ const Header = () => {
                                               className={"w-7 h-7 max-sm:w-6 max-sm:h-6"}/></p>
         </div>
         <div className={"bg-black h-[211px] flex justify-center items-center max-sm:h-[170px]"}>
-            <Image src={Logo} alt={"VSD logo"} className={"w-[300px] h-[163px] max-sm:w-[250px]"}/>
+            <Link href={"/"}><Image src={Logo} alt={"VSD logo"} className={"w-[300px] h-[163px] max-sm:w-[250px]"}/></Link>
         </div>
 
         <nav
@@ -27,11 +27,11 @@ const Header = () => {
                   className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>Početna</Link>
             <Link href={"/"} className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>internet
                 prodavnica</Link>
-            <Link href={"/"} className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>O
+            <Link href={"/about-us"} className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>O
                 nama</Link>
-            <Link href={"/"}
+            <Link href={"/contact"}
                   className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>kontakt</Link>
-            <Link href={"/"}
+            <Link href={"/our-shops"}
                   className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>Prodavnice</Link>
             {!isMenuOpen ? <HiBars4 className={"text-white text-3xl sm:hidden cursor-pointer"} onClick={toggleMenu}/> : <HiXMark className={"text-white text-3xl sm:hidden cursor-pointer"} onClick={toggleMenu}/>}
         </nav>
@@ -45,13 +45,13 @@ const Header = () => {
                 <Link href={"/"} className={"uppercase font-bold text-xl"}>
                     internet prodavnica
                 </Link>
-                <Link href={"/"} className={"uppercase font-bold text-xl"}>
+                <Link href={"/about-us"} className={"uppercase font-bold text-xl"}>
                     O nama
                 </Link>
-                <Link href={"/"} className={"uppercase font-bold text-xl"}>
+                <Link href={"/contact"} className={"uppercase font-bold text-xl"}>
                     kontakt
                 </Link>
-                <Link href={"/"} className={"uppercase font-bold text-xl"}>
+                <Link href={"/our-shops"} className={"uppercase font-bold text-xl"}>
                     Prodavnice
                 </Link>
             </div>
