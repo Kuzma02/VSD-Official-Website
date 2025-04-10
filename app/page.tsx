@@ -1,9 +1,13 @@
-import Image from "next/image";
+import {Banner, AboutSection, QualitySection, BigImageSection, TireSection} from "@/components";
 
 export default function Home() {
-  return (
-    <div>
-      <h2>Home Page</h2>
-    </div>
-  );
+    return (
+        <>
+            <Banner/>
+            <AboutSection/>
+            <QualitySection/>
+            <BigImageSection />
+            <TireSection />
+        </>
+    );
 }
