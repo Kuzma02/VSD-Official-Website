@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-const AboutUsPageEng = () => {
+const AboutUsPage = () => {
     return <div className="mt-20 px-5 max-sm:mt-10">
         <h2 className="text-6xl font-bold tracking-tight text-white max-sm:text-4xl uppercase text-center">
-            About Us
+            O Nama
         </h2>
         <div className="max-w-6xl mx-auto mt-12">
             <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 items-center max-sm:gap-5">
@@ -16,32 +16,31 @@ const AboutUsPageEng = () => {
                     />
                 </div>
                 <div>
-                    <h3 className="text-4xl text-white font-bold uppercase mb-4">Who are we?</h3>
+                    <h3 className="text-4xl text-white font-bold uppercase mb-4">Ko smo mi?</h3>
                     <p className="text-xl text-white leading-relaxed">
-                        We are a company dedicated to providing superior products and services to our customers. Ours
-                        mission is to ensure quality, innovation and satisfaction through everything we do. With
-                        with many years of experience and a team of experts, we strive to exceed expectations and build
-                        long-term relationships with our customers.
+                        Mi smo kompanija posvećena pružanju vrhunskih proizvoda i usluga našim klijentima. Naša
+                        misija je da obezbedimo kvalitet, inovaciju i zadovoljstvo kroz sve što radimo. Sa
+                        dugogodišnjim iskustvom i timom stručnjaka, trudimo se da premašimo očekivanja i izgradimo
+                        dugoročne odnose sa našim kupcima.
                     </p>
                     <p className="text-xl text-white leading-relaxed mt-4">
-                        Our vision is to be an industry leader, known for our commitment to quality and
-                        customer satisfaction. Thank you for being part of our story!
+                        Naša vizija je da budemo lider u industriji, poznati po našoj posvećenosti kvalitetu i
+                        zadovoljstvu klijenata. Hvala Vam što ste deo naše priče!
                     </p>
                 </div>
             </div>
 
             {/* Our Mission Section */}
             <div className="mt-16">
-                <h3 className="text-4xl text-white font-bold uppercase mb-4 text-center">Our Mission</h3>
+                <h3 className="text-4xl text-white font-bold uppercase mb-4 text-center">Naša Misija</h3>
                 <p className="text-xl text-white leading-relaxed text-center">
-                    Our mission is to inspire and enable our clients to achieve their goals through
-                    innovative products and services. We are committed to sustainability, quality and creating
-                    positivity
-                    impact on the community.
+                    Naša misija je da inspirišemo i omogućimo našim klijentima da postignu svoje ciljeve kroz
+                    inovativne proizvode i usluge. Posvećeni smo održivosti, kvalitetu i stvaranju pozitivnog
+                    uticaja na zajednicu.
                 </p>
             </div>
         </div>
     </div>
 }
 
-export default AboutUsPageEng;
+export default AboutUsPage;

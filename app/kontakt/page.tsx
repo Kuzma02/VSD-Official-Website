@@ -1,31 +1,33 @@
-const ContactPageEng = () => {
+const ContactPage = () => {
     return (
         <div className="mt-20 px-5 max-sm:mt-10">
             <h2 className="text-6xl font-bold tracking-tight text-white max-sm:text-4xl uppercase text-center">
-                Contact
+                Kontakt
             </h2>
             <div className="max-w-6xl mx-auto mt-12">
 
                 {/* Contact Information */}
                 <div className="mt-16 mb-10">
-                    <h3 className="text-4xl text-white font-bold uppercase mb-4 text-center max-sm:text-3xl">Contact Information</h3>
+                    <h3 className="text-4xl text-white font-bold uppercase mb-4 text-center max-sm:text-3xl">Kontakt
+                        Informacije</h3>
                     <p className="text-2xl text-white text-center max-sm:text-xl">
                         Email: kontakt@example.com
                     </p>
                     <p className="text-2xl text-white text-center mt-2 max-sm:text-xl">
-                        Phone: +123 456 789
+                        Telefon: +123 456 789
                     </p>
                     <p className="text-2xl text-white text-center mt-2 max-sm:text-xl">
-                        Address: Street 123, City, Country
+                        Adresa: Ulica 123, Grad, Država
                     </p>
                 </div>
 
                 {/* Contact Form */}
                 <div className="bg-black p-6 rounded-lg border border-white">
-                    <h3 className="text-4xl text-white font-bold uppercase mb-6 text-center max-sm:text-3xl">Send Us a Message</h3>
+                    <h3 className="text-4xl text-white font-bold uppercase mb-6 text-center max-sm:text-3xl">Pošaljite
+                        Nam Poruku</h3>
                     <form className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                         <div>
-                            <label className="block text-white text-xl font-bold uppercase mb-2">Name</label>
+                            <label className="block text-white text-xl font-bold uppercase mb-2">Ime</label>
                             <input
                                 type="text"
                                 className="w-full p-3 text-xl bg-white text-black rounded-lg outline-none"
@@ -41,7 +43,7 @@ const ContactPageEng = () => {
                             />
                         </div>
                         <div className="sm:col-span-2">
-                            <label className="block text-white text-xl font-bold uppercase mb-2">Title</label>
+                            <label className="block text-white text-xl font-bold uppercase mb-2">Naslov</label>
                             <input
                                 type="text"
                                 className="w-full p-3 text-xl bg-white text-black rounded-lg outline-none"
@@ -49,11 +51,11 @@ const ContactPageEng = () => {
                             />
                         </div>
                         <div className="sm:col-span-2">
-                            <label className="block text-white text-xl font-bold uppercase mb-2">Message</label>
+                            <label className="block text-white text-xl font-bold uppercase mb-2">Poruka</label>
                             <textarea
                                 className="w-full p-3 text-xl bg-white text-black rounded-lg outline-none"
                                 rows={5}
-                                placeholder="Your message"
+                                placeholder="Vaša poruka"
                             ></textarea>
                         </div>
                         <div className="sm:col-span-2 flex justify-end">
@@ -61,7 +63,7 @@ const ContactPageEng = () => {
                                 type="submit"
                                 className="uppercase text-white bg-black px-6 py-3 text-2xl font-bold border border-white hover:bg-white hover:text-black"
                             >
-                                Send
+                                Pošalji
                             </button>
                         </div>
                     </form>
@@ -73,4 +75,4 @@ const ContactPageEng = () => {
     );
 };
 
-export default ContactPageEng;
+export default ContactPage;
