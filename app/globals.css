@@ -26,6 +26,13 @@ body {
     z-index: 2;
 }
 
+@media (max-width: 500px) {
+    .shop-info-title {
+        font-size: 18px;
+    }
+
+}
+
 @media (max-width: 400px) {
     .copyrightText {
         font-size: 14px;

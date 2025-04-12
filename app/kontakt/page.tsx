@@ -11,13 +11,13 @@ const ContactPage = () => {
                     <h3 className="text-4xl text-white font-bold uppercase mb-4 text-center max-sm:text-3xl">Kontakt
                         Informacije</h3>
                     <p className="text-2xl text-white text-center max-sm:text-xl">
-                        Email: kontakt@example.com
+                        Email: mobilmaxvsd@gmail.com
                     </p>
                     <p className="text-2xl text-white text-center mt-2 max-sm:text-xl">
-                        Telefon: +123 456 789
+                        Telefon: +381 62 462 211
                     </p>
                     <p className="text-2xl text-white text-center mt-2 max-sm:text-xl">
-                        Adresa: Ulica 123, Grad, Država
+                        Adresa: Majora Zorana Radosavljevića 160
                     </p>
                 </div>
 

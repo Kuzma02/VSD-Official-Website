@@ -10,13 +10,13 @@ const ContactPageEng = () => {
                 <div className="mt-16 mb-10">
                     <h3 className="text-4xl text-white font-bold uppercase mb-4 text-center max-sm:text-3xl">Contact Information</h3>
                     <p className="text-2xl text-white text-center max-sm:text-xl">
-                        Email: kontakt@example.com
+                        Email: mobilmaxvsd@gmail.com
                     </p>
                     <p className="text-2xl text-white text-center mt-2 max-sm:text-xl">
-                        Phone: +123 456 789
+                        Phone: +381 62 462 211
                     </p>
                     <p className="text-2xl text-white text-center mt-2 max-sm:text-xl">
-                        Address: Street 123, City, Country
+                        Address: Majora Zorana Radosavljevića 160
                     </p>
                 </div>
 
@@ -29,7 +29,7 @@ const ContactPageEng = () => {
                             <input
                                 type="text"
                                 className="w-full p-3 text-xl bg-white text-black rounded-lg outline-none"
-                                placeholder="Vaše ime"
+                                placeholder="Your name"
                             />
                         </div>
                         <div>
@@ -37,7 +37,7 @@ const ContactPageEng = () => {
                             <input
                                 type="email"
                                 className="w-full p-3 text-xl bg-white text-black rounded-lg outline-none"
-                                placeholder="Vaš email"
+                                placeholder="Your email"
                             />
                         </div>
                         <div className="sm:col-span-2">
@@ -45,7 +45,7 @@ const ContactPageEng = () => {
                             <input
                                 type="text"
                                 className="w-full p-3 text-xl bg-white text-black rounded-lg outline-none"
-                                placeholder="Naslov poruke"
+                                placeholder="Title of the message"
                             />
                         </div>
                         <div className="sm:col-span-2">

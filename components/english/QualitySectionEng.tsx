@@ -27,10 +27,10 @@ const QualitySectionEng = () => {
                 <div className="grid grid-cols-2 items-center gap-x-8 max-md:grid-cols-1 max-md:gap-y-5">
                     <div className="flex flex-col gap-2 max-md:order-2">
                         <h3 className="text-4xl text-white font-bold uppercase max-sm:text-3xl">quality material</h3>
-                        <p className="text-xl text-white max-sm:text-lg">Naše patosnice su izrađene od najkvalitetnijih
-                            materijala. Pažljivo odabrane sirovine osiguravaju izdržljivost i dugotrajnost. Korišćeni
-                            materijali su otporni na habanje i lako se održavaju. Uživajte u udobnosti i estetici naših
-                            patosnica, napravljenih od materijala vrhunskog kvaliteta.</p>
+                        <p className="text-xl text-white max-sm:text-lg">Our mats are made of the highest quality
+                            materials. Carefully selected raw materials ensure durability and longevity. The materials
+                            used are wear-resistant and easy to maintain. Enjoy the comfort and aesthetics of our mats,
+                            made of top quality materials.</p>
                     </div>
                     <div className="relative w-full h-[300px] max-md:order-1 max-sm:h-[250px]">
                         <Image src="/kvalitet 3.jpg" alt={"Kvalitet 1 slika"} width={565} height={353}

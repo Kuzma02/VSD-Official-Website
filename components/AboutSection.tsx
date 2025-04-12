@@ -18,12 +18,13 @@ const AboutSection = () => {
             proizvode i usluge. Posvećeni smo održivosti, kvalitetu i stvaranju pozitivnog uticaja na zajednicu.
         </p>
         <div className={"flex gap-3 justify-center items-center px-5 max-md:flex-col "}>
-            <Image src={"/vsd prodavnica.jpeg"} alt={"vsd prodavnica"} className={"w-[500px] h-[500px] max-sm:h-auto"} width={500}
-                   height={500}/>
-            <Image src={"/vsd prodavnica 2.jpeg"} alt={"vsd prodavnica"} className={"w-[500px] h-[500px] max-sm:h-auto"} width={500}
-                   height={500}/>
+            <div className={"flex flex-col items-center gap-3"}>
+                <Image src={"/vsd prodavnica 3.jpeg"} alt={"vsd prodavnica"}
+                       className={"w-[500px] h-[500px] max-sm:h-auto"} width={500}
+                       height={500}/>
+                <p className={"shop-info-title text-white uppercase font-bold text-2xl max-sm:text-xl text-center"}>Maloprodaja na lokaciji: Majora Zorana Radosavljevića 160</p>
+            </div>
         </div>
-
     </div>
 }
 
