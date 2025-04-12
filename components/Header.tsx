@@ -13,12 +13,14 @@ const Header = () => {
     };
     return <header>
         <div className={"bg-white "}>
-            <p className={"text-xl font-bold text-center flex gap-2 items-center justify-center h-12 uppercase max-sm:text-lg"}>Go to
+            <p className={"text-xl font-bold text-center flex gap-2 items-center justify-center h-12 uppercase max-sm:text-lg"}>Go
+                to
                 the website in English <Image src="/english icon.png" alt={"english language"} width={30} height={30}
                                               className={"w-7 h-7 max-sm:w-6 max-sm:h-6"}/></p>
         </div>
         <div className={"bg-black h-[211px] flex justify-center items-center max-sm:h-[170px]"}>
-            <Link href={"/"}><Image src={Logo} alt={"VSD logo"} className={"w-[300px] h-[163px] max-sm:w-[250px]"}/></Link>
+            <Link href={"/"}><Image src={Logo} alt={"VSD logo"}
+                                    className={"w-[300px] h-[163px] max-sm:w-[250px]"}/></Link>
         </div>
 
         <nav
@@ -27,13 +29,15 @@ const Header = () => {
                   className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>Početna</Link>
             <Link href={"/"} className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>internet
                 prodavnica</Link>
-            <Link href={"/about-us"} className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>O
+            <Link href={"/about-us"}
+                  className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>O
                 nama</Link>
             <Link href={"/contact"}
                   className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>kontakt</Link>
             <Link href={"/our-shops"}
                   className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>Prodavnice</Link>
-            {!isMenuOpen ? <HiBars4 className={"text-white text-3xl sm:hidden cursor-pointer"} onClick={toggleMenu}/> : <HiXMark className={"text-white text-3xl sm:hidden cursor-pointer"} onClick={toggleMenu}/>}
+            {!isMenuOpen ? <HiBars4 className={"text-white text-3xl sm:hidden cursor-pointer"} onClick={toggleMenu}/> :
+                <HiXMark className={"text-white text-3xl sm:hidden cursor-pointer"} onClick={toggleMenu}/>}
         </nav>
 
         {/* Mobile Menu */}
