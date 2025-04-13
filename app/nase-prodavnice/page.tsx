@@ -10,15 +10,9 @@ const OurShopsPage = () => {
                     {/* Example Shop */}
                     <div className="bg-black p-6 rounded-lg border border-white">
                         <h3 className="text-2xl text-white font-bold uppercase">Prodavnica 1</h3>
-                        <p className="text-xl text-white mt-2">Adresa: Ulica 123, Grad</p>
-                        <p className="text-xl text-white mt-2">Telefon: +123 456 789</p>
+                        <p className="text-xl text-white mt-2">Adresa: Majora Zorana Radosavljevića 160, Batajnica</p>
+                        <p className="text-xl text-white mt-2">Telefon: +381 62 462 211</p>
                         <p className="text-xl text-white mt-2">Radno vreme: 9:00 - 21:00</p>
-                    </div>
-                    <div className="bg-black p-6 rounded-lg border border-white">
-                        <h3 className="text-2xl text-white font-bold uppercase">Prodavnica 2</h3>
-                        <p className="text-xl text-white mt-2">Adresa: Ulica 456, Grad</p>
-                        <p className="text-xl text-white mt-2">Telefon: +987 654 321</p>
-                        <p className="text-xl text-white mt-2">Radno vreme: 10:00 - 22:00</p>
                     </div>
                     {/* Add more shops as needed */}
                 </div>
@@ -28,7 +22,10 @@ const OurShopsPage = () => {
                     <h3 className="text-4xl text-white font-bold uppercase mb-4 text-center">Mapa Lokacija</h3>
                     <div className="w-full h-96 bg-gray-800 rounded-lg">
                         {/* Placeholder for map */}
-                        <p className="text-xl text-white text-center pt-40">Mapa će biti ovde</p>
+                        <iframe className={"w-full h-96"}
+                                src="https://www.openstreetmap.org/export/embed.html?bbox=20.222568511962894%2C44.872233502042114%2C20.335865020751957%2C44.92646529763417&amp;layer=mapnik"></iframe>
+                        <br/><small><a href="https://www.openstreetmap.org/?#map=14/44.89936/20.27922">View Larger
+                        Map</a></small>
                     </div>
                 </div>
             </div>
