@@ -1,4 +1,5 @@
 import {HiChevronDoubleRight} from "react-icons/hi2";
+import Link from "next/link";
 
 const Banner = () => {
     return <div className="banner h-[650px] w-full max-md:h-[500px] max-sm:h-[400px]">
@@ -10,10 +11,11 @@ const Banner = () => {
             <p className="bannerDesc text-xl text-white text-center z-10 max-[1200px]:text-lg max-md:text-base max-sm:text-sm">Otkrijte
                 tajne savršene auto kozmetike! Održavajte svoj automobil u vrhunskom stanju uz naše stručne savete i
                 proizvode. Uživajte u blistavom izgledu i dugotrajnoj zaštiti vašeg vozila!</p>
-            <button
+            <Link
+                href="https://www.gumenepatosnice.rs"
                 className="bg-white text-black w-full max-w-4xl h-[50px] uppercase text-2xl font-bold flex justify-center items-center gap-2 z-10 max-[1200px]:text-xl max-md:text-lg max-md:h-[40px] max-sm:text-base max-sm:h-[30px]">poseti
                 internet prodavnicu <HiChevronDoubleRight className="text-3xl max-[1200px]:text-xl  max-sm:text-base"/>
-            </button>
+            </Link>
         </div>
 
     </div>
