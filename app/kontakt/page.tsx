@@ -30,9 +30,9 @@ const ContactPage = () => {
                     <p className="text-2xl text-white text-center max-sm:text-xl">
                         Email: office@mobilmax.rs
                     </p>
-                    <p className="text-2xl text-white text-center mt-2 max-sm:text-xl">
-                        Telefon: <a href="tel:+38162462211">+381 62 462 211</a>
-                    </p>
+                    <a href="tel:+381 62 462 211" className="block text-2xl text-white text-center mt-2 max-sm:text-xl">
+                        Telefon: +381 62 462 211
+                    </a>
                     <p className="text-2xl text-white text-center mt-2 max-sm:text-xl">
                         Adresa: Majora Zorana Radosavljevića 160
                     </p>
