@@ -1,5 +1,22 @@
 import Image from "next/image";
 
+export const metadata = {
+    title: "VSD Mobil Max | About Us",
+    description: "Learn more about VSD Mobil Max, our mission, and our commitment to quality auto parts and services.",
+    keywords: [
+        "about us",
+        "VSD Mobil Max",
+        "auto parts",
+        "company mission",
+        "quality service"
+    ],
+    openGraph: {
+        title: "VSD Mobil Max | About Us",
+        description: "Learn more about VSD Mobil Max, our mission, and our commitment to quality auto parts and services.",
+        type: "website"
+    }
+}
+
 const AboutUsPageEng = () => {
     return <div className="mt-20 px-5 max-sm:mt-10">
         <h2 className="text-6xl font-bold tracking-tight text-white max-sm:text-4xl uppercase text-center">

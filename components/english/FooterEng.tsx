@@ -15,7 +15,7 @@ const FooterEng = () => {
             <ul className={"flex gap-5 mt-16 max-sm:mt-10 max-sm:flex-col max-[500px]:gap-2 text-center"}>
                 <li><Link href={"/home"}
                           className="text-white font-bold text-3xl max-lg:text-xl max-sm:text-xl uppercase">Home</Link></li>
-                <li><Link href={"https://all-for-car-ecommerce.vercel.app/"}
+                <li><Link href={"https://www.gumenepatosnice.rs"}
                           className="text-white font-bold text-3xl max-lg:text-xl max-sm:text-xl uppercase">Web Shop</Link></li>
                 <li><Link href={"/about-us"} className="text-white font-bold text-3xl max-lg:text-xl max-sm:text-xl uppercase">About Us</Link></li>
                 <li><Link href={"/contact"}

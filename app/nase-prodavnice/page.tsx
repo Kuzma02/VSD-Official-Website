@@ -1,3 +1,20 @@
+
+export const metadata = {
+    title: "Naše Prodavnice | VSD Mobil Max",
+    description: "Pronađite najbližu prodavnicu VSD Mobil Max i uživajte u vrhunskom kvalitetu auto delova i kozmetike.",
+    keywords: [
+        "prodavnice",
+        "auto delovi",
+        "kozmetika",
+        "VSD Mobil Max"
+    ],
+    openGraph: {
+        title: "Naše Prodavnice | VSD Mobil Max",
+        description: "Pronađite najbližu prodavnicu VSD Mobil Max i uživajte u vrhunskom kvalitetu auto delova i kozmetike.",
+        type: "website"
+    }
+}
+
 const OurShopsPage = () => {
     return (
         <div className="mt-20 px-5 max-sm:mt-10">
@@ -11,22 +28,23 @@ const OurShopsPage = () => {
                     <div className="bg-black p-6 rounded-lg border border-white">
                         <h3 className="text-2xl text-white font-bold uppercase">Prodavnica 1</h3>
                         <p className="text-xl text-white mt-2">Adresa: Majora Zorana Radosavljevića 160, Batajnica</p>
-                        <p className="text-xl text-white mt-2">Telefon: +381 62 462 211</p>
+                        <a href="tel:+38162462211" className="text-xl text-white mt-2">Telefon: +381 62 462 211</a>
                         <p className="text-xl text-white mt-2">Radno vreme: 9:00 - 21:00</p>
                     </div>
                     {/* Add more shops as needed */}
                 </div>
 
                 {/* Map Section */}
-                <div className="mt-16">
-                    <h3 className="text-4xl text-white font-bold uppercase mb-4 text-center">Mapa Lokacija</h3>
-                    <div className="w-full h-96 bg-gray-800 rounded-lg">
-                        {/* Placeholder for map */}
-                        <iframe className={"w-full h-96"}
-                                src="https://www.openstreetmap.org/export/embed.html?bbox=20.222568511962894%2C44.872233502042114%2C20.335865020751957%2C44.92646529763417&amp;layer=mapnik"></iframe>
-                        <br/><small><a href="https://www.openstreetmap.org/?#map=14/44.89936/20.27922">View Larger
-                        Map</a></small>
-                    </div>
+                <div className="my-12 flex justify-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2826.2096875077386!2d20.285000276679973!3d44.898729970989194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a5df5c61366c3%3A0x1709c4529c6ba80a!2zTWFqb3JhIFpvcmFuYSBSYWRvc2F2bGpldmnEh2EgMTYwLCDQkdC10L7Qs9GA0LDQtCAxMTI3Mw!5e0!3m2!1ssr!2srs!4v1752314237593!5m2!1ssr!2srs"
+                        width="100%"
+                        height="450"
+                        className="border-0 rounded-lg w-full max-w-3xl"
+                        allowFullScreen
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
                 </div>
             </div>
         </div>

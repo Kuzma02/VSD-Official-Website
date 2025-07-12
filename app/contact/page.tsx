@@ -1,4 +1,22 @@
+export const metadata = {
+    title: "Contact | VSD Mobil Max",
+    description: "Get in touch with us for any inquiries or support regarding auto parts and accessories.",
+    keywords: [
+        "contact",
+        "support",
+        "auto parts",
+        "accessories",
+        "VSD Mobil Max"
+    ],
+    openGraph: {
+        title: "Contact | VSD Mobil Max",
+        description: "Get in touch with us for any inquiries or support regarding auto parts and accessories.",
+        type: "website"
+    }
+}
+
 const ContactPageEng = () => {
+
     return (
         <div className="mt-20 px-5 max-sm:mt-10">
             <h2 className="text-6xl font-bold tracking-tight text-white max-sm:text-4xl uppercase text-center">
@@ -8,21 +26,35 @@ const ContactPageEng = () => {
 
                 {/* Contact Information */}
                 <div className="mt-16 mb-10">
-                    <h3 className="text-4xl text-white font-bold uppercase mb-4 text-center max-sm:text-3xl">Contact Information</h3>
+                    <h3 className="text-4xl text-white font-bold uppercase mb-4 text-center max-sm:text-3xl">Contact
+                        Information</h3>
                     <p className="text-2xl text-white text-center max-sm:text-xl">
-                        Email: mobilmaxvsd@gmail.com
+                        Email: office@mobilmax.rs
                     </p>
                     <p className="text-2xl text-white text-center mt-2 max-sm:text-xl">
-                        Phone: +381 62 462 211
+                        Phone: <a href="tel:+38162462211">+381 62 462 211</a>
                     </p>
                     <p className="text-2xl text-white text-center mt-2 max-sm:text-xl">
                         Address: Majora Zorana Radosavljevića 160
                     </p>
                 </div>
 
+                <div className="my-12 flex justify-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2826.2096875077386!2d20.285000276679973!3d44.898729970989194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a5df5c61366c3%3A0x1709c4529c6ba80a!2zTWFqb3JhIFpvcmFuYSBSYWRvc2F2bGpldmnEh2EgMTYwLCDQkdC10L7Qs9GA0LDQtCAxMTI3Mw!5e0!3m2!1ssr!2srs!4v1752314237593!5m2!1ssr!2srs"
+                        width="100%"
+                        height="450"
+                        className="border-0 rounded-lg w-full max-w-3xl"
+                        allowFullScreen
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+
                 {/* Contact Form */}
                 <div className="bg-black p-6 rounded-lg border border-white">
-                    <h3 className="text-4xl text-white font-bold uppercase mb-6 text-center max-sm:text-3xl">Send Us a Message</h3>
+                    <h3 className="text-4xl text-white font-bold uppercase mb-6 text-center max-sm:text-3xl">Send Us a
+                        Message</h3>
                     <form className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                         <div>
                             <label className="block text-white text-xl font-bold uppercase mb-2">Name</label>

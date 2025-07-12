@@ -28,7 +28,7 @@ const HeaderEng = () => {
             className={"bg-black flex gap-6 justify-center text-white h-[106px] items-center border-t border-red-700 max-sm:gap-5 max-sm:h-[80px]"}>
             <Link href={"/home"}
                   className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>Home</Link>
-            <Link href={"https://all-for-car-ecommerce.vercel.app"}
+            <Link href={"https://www.gumenepatosnice.rs"}
                   className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>Web Shop</Link>
             <Link href={"/about-us"}
                   className={"uppercase font-bold text-2xl max-md:text-xl max-sm:text-lg max-sm:hidden"}>About Us</Link>
@@ -46,7 +46,7 @@ const HeaderEng = () => {
                 <Link href={"/home"} className={"uppercase font-bold text-xl"}>
                     Home
                 </Link>
-                <Link href={"https://all-for-car-ecommerce.vercel.app"} className={"uppercase font-bold text-xl"}>
+                <Link href={"https://www.gumenepatosnice.rs"} className={"uppercase font-bold text-xl"}>
                     Web Shop
                 </Link>
                 <Link href={"/about-us"} className={"uppercase font-bold text-xl"}>

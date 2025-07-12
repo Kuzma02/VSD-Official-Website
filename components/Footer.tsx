@@ -15,7 +15,7 @@ const Footer = () => {
             <ul className={"flex gap-5 mt-16 max-sm:mt-10 max-sm:flex-col max-[500px]:gap-2 text-center"}>
                 <li><Link href={"/"}
                           className="text-white font-bold text-3xl max-lg:text-xl max-sm:text-xl uppercase">POČETNA</Link></li>
-                <li><Link href={"/"}
+                <li><Link href={"https://www.gumenepatosnice.rs"}
                           className="text-white font-bold text-3xl max-lg:text-xl max-sm:text-xl uppercase">internet prodavnica</Link></li>
                 <li><Link href={"/o-nama"} className="text-white font-bold text-3xl max-lg:text-xl max-sm:text-xl uppercase">O
                     NAMA</Link></li>
