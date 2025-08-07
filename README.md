@@ -8,5 +8,8 @@
 <a href="https://github.com/Kuzma02/Luxury-Cosmetics-eCommerce-NextJS" target="_blank">Luxury Cosmetics eCommerce Shop in Next.js</a><br />
 <a href="https://github.com/Kuzma02/Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS" target="_blank">Electronics eCommerce Shop With Admin Dashboard in Next.js and Node.js</a><br />
 <a href="https://github.com/Kuzma02/Fashion-eCommerce-Shop-in-React" target="_blank">Premium Fashion eCommerce Shop</a>
+<br />
+<br />
+<br />
 
 <img alt="screencapture-mobilmax-rs-home-2025-08-06-15_41_41" src="https://github.com/user-attachments/assets/17a59a91-1d42-4a3b-b3ba-3ccfafcd7117" />
